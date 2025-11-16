@@ -216,7 +216,7 @@ export function ProfileOverview() {
             </div>
             <div className="alice-image-container">
               <img className="myProfile-image"
-                src="/images/image4.jpg" />
+                src="images/image4.jpg" />
               <p className="alice-turner">Alice_turner</p>
             </div>
             <div className="training-container">
