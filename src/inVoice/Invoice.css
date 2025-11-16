@@ -1,0 +1,223 @@
+.payment-details {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact-payment-container {
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  height: 1000px;
+  width: 700px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 229, 229);
+  padding: 10px 30px;
+  width: 700px;
+}
+
+.payment-dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para-dropdown {
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+
+.contact-para {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+
+.payment {
+  text-align: left;
+  font-weight: 500;
+}
+
+.payment-method2 {
+  font-weight: 500;
+  text-align: left;
+}
+
+.checkbox-para-icon-container {
+  display: flex;
+  
+}
+
+.checkbox-button-icon1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid purple;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.checkbox-button-icon {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(184, 181, 181);
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.checkbox-button-icon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(184, 181, 181);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.number-para {
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.icon-text-button {
+  line-height: 5px;
+  font-size: 10px;
+  color: grey;
+  background-color: white;
+}
+
+.edit2-button {
+  line-height: 5px;
+  font-size: 10px;
+  background-color: white;
+}
+
+.visa-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 80px;
+}
+
+.paypal-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 80px;
+}
+
+.button-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.new-users-para {
+  margin: 0;
+  font-size: 10px;
+}
+
+.payment-input-details-container {
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 700px;
+  border: 1px solid rgb(231, 229, 229);
+}
+
+.payment-input-container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.payment-input-container2 {
+  display: flex;
+  align-items: center;
+}
+
+.payment-input-container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-para {
+  font-weight: 500;
+}
+
+.payment-input {
+  line-height: 40px;
+  background-color: rgb(241, 240, 240);
+  width: 310px;
+  border: 1px solid rgb(204, 201, 201);
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+.invoice-input {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.checkbox  {
+  accent-color: purple;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.check-box {
+  accent-color: purple;
+}
+
+.checkbox2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e2e1e1;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  accent-color: purple;
+}
+
+.invoice-address {
+  color: grey;
+  margin-left: 20px;
+}
+
+.pay-div {
+  background-color: purple;
+  color: white;
+  padding: 5px 0;
+  font-size: 12px;
+}

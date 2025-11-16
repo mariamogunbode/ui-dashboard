@@ -1,0 +1,47 @@
+.sidebar-container {
+  position: fixed;
+  background-color: white;
+  width: 200px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  transition: width 0.3s ease-in-out;
+  z-index: 1000;
+  height: 1000px;
+}
+.sidebar-pages-container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-icon {
+  margin-right: 30px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu.show {
+  display: block;
+}
+
+.sidebar a {
+  color: #fff'
+}
+
+.sidebar span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar span .icon {
+  margin-left: auto;
+}
+
+.icon {
+  margin-left: auto;
+  cursor: pointer;
+}

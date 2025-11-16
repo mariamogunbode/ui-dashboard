@@ -1,0 +1,270 @@
+.plan-manage {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+}
+
+.plan-billing {
+  text-align: left;
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+
+.popular-plan {
+  text-align: left;
+  margin: 0;
+  font-size: 15px;
+}
+
+.basic-plan {
+  width: 500px;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgb(230, 226, 226);
+}
+
+.plan-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upgrade-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.upgrade {
+  color: purple;
+  font-size: 13px;
+  text-align: right;
+}
+
+.upgrade-chevron svg {
+  width: 24px;
+  height: 24px;
+}
+
+.price-monthly {
+  display: flex;
+  align-items: end;
+}
+
+.plan-basic {
+  margin-bottom: 0;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.billing-images {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-right: -3px;
+  border: 1px solid white;
+}
+
+.billing-images-container {
+  display: flex;
+}
+
+.dollar {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-right: 5px;
+}
+
+.per-month {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.popular-plan {
+  text-align: left;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.first-divs-container {
+  position: absolute;
+  left: 220px;
+  display: flex;
+  top: 160px;
+}
+
+.payment-method-container {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(230, 226, 226);
+  padding: 10px;
+}
+
+.payment-method {
+  text-align: left;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.change-plan {
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+ 
+}
+
+.visa-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(247, 245, 245);
+  margin-top: 20px;
+}
+
+.visa-container svg {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.visa-ending {
+  margin: 0;
+  font-weight: 500;
+  color: black;
+}
+
+.button-edit3 {
+  background-color: purple;
+  line-height: 10px;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.visa-ending-container {
+  margin-right: 200px;
+}
+
+.visa-expiry {
+  margin: 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.billing-history-container {
+  position: absolute;
+  width: 1040px;
+  background-color: white;
+  left: 220px;
+  top: 320px;
+  
+  border: 1px solid rgb(230, 226, 226);
+  border-radius: 10px;
+}
+.billing-history {
+  border-bottom: 2px solid rgb(230, 226, 226);
+  padding: 15px;
+}
+
+.billing-header-container {
+  display: flex;
+  padding: 0 15px;
+  border-bottom: 2px solid rgb(230, 226, 226);
+}
+
+
+.billing-header {
+  display: flex;
+  margin-left: 300px;
+}
+
+.bill-ing {
+  font-size: 15px;
+  font-weight: 600;
+  width: 0;
+}
+
+.headers {
+  width: 90px;
+  margin-right: 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.billing-summary {
+  display: flex;
+  padding: 0 15px;
+   border-bottom: 2px solid rgb(230, 226, 226);
+}
+
+.pdf-details {
+  display: flex;
+  align-items: center;
+}
+
+.billing-details {
+  display: flex;
+  margin-left: 100px;
+}
+
+.details {
+  margin-right: 50px;
+  font-size: 12px;
+  width: 80px;
+}
+
+.all-billing-divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.bill {
+  margin-right: 30px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.download-dot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.download-button {
+   background-color: black;
+   color: white;
+   line-height: 10px;
+   width: 120px;
+   border-radius: 5px;
+}
+
+.manage-billing {
+  margin-top: 10px;
+}
+
+.billing-history2 {
+  text-align: left;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
+.download-previous-plan {
+  text-align: left;
+  font-size: 12px;
+  margin: 0;
+}

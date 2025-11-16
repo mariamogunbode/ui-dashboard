@@ -1,0 +1,142 @@
+.page-use-chart-container {
+  position: absolute;
+  left: 220px;
+  top: 70px;
+}
+
+.charts {
+  text-align: left;
+  font-weight: 500;
+  margin: 0;
+}
+.page-use {
+  font-weight: 500;
+  margin: 0;
+}
+
+.four-chart-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 90px;
+  position: absolute;
+  left: 220px;
+  top: 150px;
+
+}
+
+.line-chart,
+.pie-chart,
+.line-chart-gradient {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
+}
+
+.bar-chart-container {
+  height: 300px;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+}
+
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.men-women-div-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -70px;
+}
+
+.men-container {
+  display: flex;
+  align-items: center;
+   margin-right: 130px;
+}
+
+.women-container {
+  display: flex;
+  align-items: center;
+   margin-left: 50px;
+}
+
+.men-empty-div  {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: purple;
+ 
+}
+
+.women-empty-div  {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: rgb(228, 51, 235);
+}
+
+.thirty-five,
+.fourty-five,
+.men,
+.women {
+  margin: 0;
+  font-weight: 500;
+}
+
+.gender-question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+
+.gender {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.gender-question {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  color: white;
+  margin: 0;
+}
+
+.lines {
+  border-bottom: 1px solid rgb(223, 218, 218);
+  width: 500px;
+  text-align: left;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.bar-number-div {
+  margin: 0;
+}
+
+.bars {
+  text-align: left;
+}
+
+.dollar-number {
+  border-bottom: 1px solid rgb(223, 218, 218);
+  text-align: left;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}

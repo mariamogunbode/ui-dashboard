@@ -1,0 +1,101 @@
+.pricing {
+  text-align: left;
+  left: 220px;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.pricing-container {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+}
+
+.simple-pricing {
+  margin-top: 5px;;
+  color: rgb(145, 141, 141);
+  font-size: 14px;
+}
+
+.free-price-custom-container {
+  display: flex;
+  position: absolute;
+  left: 250px;
+  top: 170px;
+}
+
+.free-div {
+  background-color: white;
+   width: 300px;
+   margin-right: 30px;
+   border-radius: 10px;
+}
+
+.free-personal {
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.lifetime {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  color: rgb(145, 141, 141);
+}
+
+.current-button {
+  border: 1px solid rgb(204, 201, 201);
+  width: 250px;
+  background-color: white;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(145, 141, 141);
+  border-radius: 10px;
+}
+
+.try-button {
+  border: 1px solid rgb(204, 201, 201);
+  width: 250px;
+  background-color: purple;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+}
+
+.contact-button {
+  border: 1px solid rgb(204, 201, 201);
+  width: 250px;
+  background-color: purple;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+}
+
+.input-checks-container {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  margin-top: 20px;
+}
+
+.free-div input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.html-label,
+.html-label2,
+.html-label3 {
+  font-size: 12px;
+  color: rgb(145, 141, 141);
+}

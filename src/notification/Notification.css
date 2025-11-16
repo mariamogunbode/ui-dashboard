@@ -1,0 +1,201 @@
+.divs-container {
+  height: 800px;
+  margin-top: 30px;
+}
+
+.alert-divs-container {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.notification-divs-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.alert {
+  text-align: left;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.div-1 {
+  display: flex;
+  background-color: blueviolet;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+  
+}
+
+.div-2 {
+  display: flex;
+  background-color: purple;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-3 {
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-4 {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-5 {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-6 {
+  display: flex;
+  background-color: plum;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-7 {
+  display: flex;
+  background-color: gray;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+   width: 400px;
+}
+
+.div-8 {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  width: 400px;
+}
+
+.notification {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.notification-para {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.notification-divs {
+  display: flex;
+  width: 400px;
+  font-size: 12px;
+}
+
+.success {
+  background-color: blue;
+  flex: 100%;
+  padding: 15px 10px;
+  color: white;
+  margin-right: 10px;
+}
+
+.warning {
+  background-color: aqua;
+  flex: 100%;
+  padding: 15px 10px;
+  color: white;
+  margin-right: 10px;
+}
+.danger {
+  background-color: red;
+  flex: 100%;
+  padding: 15px 10px;
+  color: white;
+  margin-right: 10px;
+}
+
+.secondary {
+  background-color: purple;
+  flex: 100%;
+  padding: 15px 10px;
+  color: white;
+}
+
+.alert-link {
+  text-decoration: underline;
+  color: white;
+}
+
+.times {
+  font-size: 12px;
+}

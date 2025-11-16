@@ -1,0 +1,171 @@
+.profile-data-container {
+  background-color: white;
+  position: absolute;
+  left: 220px;
+  top: 80px;
+  padding: 30px;
+  width: 1000px;
+  border: 2px solid rgb(238, 235, 235);
+  border-radius: 10px;
+  height: 1000px;
+}
+
+.profile-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-picture-container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.position {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.appButton {
+  background-color: purple;
+  line-height: 10px;
+  width: 110px;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.messagesButton,
+.settingsButton {
+   background-color: white;
+  line-height: 10px;
+  width: 110px;
+  color: purple;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid purple;
+  margin-left: 10px;
+}
+
+.awesome-project {
+  background-color: rgb(219, 218, 218);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  text-align: left;
+  padding-left: 20px;
+  
+}
+
+.awesomeProject-profile-container {
+  border: 2px solid rgb(235, 232, 232);
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 1000px;
+  object-fit: contain;
+}
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 20px;
+ row-gap: 30px;
+ column-gap: 30px;
+}
+  
+.profileData-container {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(235, 232, 232);
+  flex-basis: calc(28.70% - 20px);
+}
+
+.new-project {
+  margin-top: 60px;
+  text-align: center;
+  color: rgb(167, 164, 164);
+}
+
+.icon-profileName-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-profileName {
+  display: flex;
+  align-items: center;
+}
+
+.icons-container {
+  margin-right: 15px;
+}
+
+.profileName-picture-container {
+
+}
+
+.profile-details {
+  font-size: 11px;
+  text-align: left;
+  color: rgb(136, 135, 135);
+}
+
+.profileName {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+}
+
+.number-date-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(202, 200, 200);
+}
+
+.data-number {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.data-date {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.data-participant,
+.due-date {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  color: rgb(136, 135, 135);
+}
+
+.pictures {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 1px solid white;
+  margin-left: -5px;
+}
+.picture2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+ 

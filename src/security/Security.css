@@ -1,0 +1,173 @@
+.dot-para {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.password-device {
+  display: flex;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  height: 850px;
+
+}
+
+.security-setting {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+}
+
+.password-container {
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.pass-word {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pass-password {
+  margin-top: 0;
+  text-align: left;
+  font-size: 12px;
+  width: 300px;
+  color: grey;
+}
+
+.password-para {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.password-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.password-input {
+  background-color: rgb(247, 247, 247);
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 198, 198);
+}
+
+.rules-container {
+  background-color: rgb(247, 247, 247);
+  width: 280px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.dot {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: grey
+}
+
+.password-rules {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.create-new-password {
+  text-align: left;
+  font-size: 12px;
+  width: 240px;
+  color: grey;
+}
+
+.devices-container {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+}
+
+.para-button-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+
+.devices {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.password-generator {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: grey;
+}
+
+.signOut-button {
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.help-button {
+  background-color: rgb(231, 231, 231);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 180px;
+  width: 250px;
+}
+
+.phones-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: grey;
+}
+
+.phones {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.vertical-dots {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}

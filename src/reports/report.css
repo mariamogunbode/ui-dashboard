@@ -1,0 +1,204 @@
+.the-3-charts-container {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+  width: 1000px;
+}
+
+.dollars-divs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid rgb(233, 231, 231);
+  border-radius: 8px;
+}
+
+.dollars {
+  font-size: 25px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.usage {
+  margin: 0;
+  color: grey;
+}
+
+.empty-dollar-div {
+  width: 1px;
+  height: 50px;
+  background-color: grey;
+}
+
+.sales-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid rgb(233, 231, 231);
+  width: 1000px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.chart-title h3 {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  font-weight: normal;
+}
+
+.chart-title h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 5px 0 0 0;
+}
+
+.chart-month-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.chart-month-selector span {
+  font-size: 14px;
+  color: #555;
+}
+
+.chart-month-selector select {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  appearance: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  padding-right: 25px;
+}
+
+.chart-month-selector .arrow-down {
+  position: absolute;
+  right: 8px;
+  pointer-events: none;
+  color: #888;
+  font-size: 10px;
+}
+
+.chart-wrapper {
+  height: 250px;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+.avatar-row {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  margin-top: 15px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.payment-loan-income-container {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.payment-chart {
+  width: 500px;
+  margin-right: 10px;
+  background-color: white;
+  height: 400px; 
+   padding: 20px;
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 5px;
+}
+
+.loan-chart {
+  width: 500px;
+  background-color: white;
+  height: 400px;
+ padding: 20px;
+  border: 1px solid rgb(233, 231, 231);
+  border-radius: 5px;
+}
+
+.dollar-payment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-bar { 
+  width: 100%;
+  height: 235px;
+}
+
+.month-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.loan-income {
+  text-align: left;
+  margin: 0;
+  color: grey;
+}
+
+.loan-dollar {
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.payment-dollar {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.pay-ments {
+  margin: 0;
+  text-align: left;
+  color: grey;
+}

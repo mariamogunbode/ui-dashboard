@@ -1,0 +1,510 @@
+.profile-search {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 220px;
+}
+
+.profile-overview {
+  margin-right: 100px;
+  color: rgb(93, 13, 197);
+  font-weight: bold;
+}
+
+.search-bar-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  height: 20px;
+  padding: 3px 30px 3px 4px;
+  border-radius: 20px;
+}
+
+.search-icon {
+  margin-left: -20px;
+  cursor: pointer;
+}
+
+.follower-income {
+  display: flex;
+  align-items: center;
+}
+
+.profile-all-divs-container {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+  width: 100px;
+  display: flex;
+}
+
+.profile-all-chart-divs {
+  width: 1000px;
+}
+
+.first-charts-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.colored-line-chart-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+}
+
+.purple-chart {
+  width: 100px;
+  height: 80px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.number-percentage-div {
+  display: flex;
+  align-items: center;
+}
+
+.numbers {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.numbers-percentage {
+  color: purple;
+  margin: 0;
+}
+
+.number-sentence {
+  color: grey;
+  margin: 0;
+  text-align: left;
+  font-size: 11px;
+}
+
+.second-charts-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+  height: 400px;
+}
+
+.line4-charts-container {
+   background-color: white;
+   height: 350px;
+   width: 500px;
+   padding: 20px;
+   border-radius: 10px;
+   border: 1px solid rgb(238, 236, 236)
+}
+
+.line4-chart-container {
+  height: 250px;
+}
+
+.followers-come-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid rgb(226, 219, 219);
+}
+
+.come-empty-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.follo-wers {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.income {
+  color: red;
+  font-weight: 500;
+  margin: 0;
+}
+
+.outcome {
+  color: purple;
+  font-weight: 500;
+  margin: 0;
+}
+
+.come-empty-div1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.come-empty-div2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: purple;
+  margin-right: 10px;
+}
+
+.red-purple-come-container {
+  display: flex;
+}
+
+.actions-divs-container {
+  background-color: white;
+  height: 350px;
+  width: 230px;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 236, 236)
+}
+
+.action-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-number {
+  color: purple;
+}
+
+.action {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.question-button {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  width: 25px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.third-charts-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top:  30px;
+}
+
+.third-chart-container {
+  width: 370px;
+  height: 260PX;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+}
+
+.dashed-line-chart {
+ height: 200px; 
+}
+
+.interaction-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.interaction {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.question {
+  background-color: grey;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.purple-barchart-container {
+  width: 360px;
+  height: 260px;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+}
+
+.purple-barchart {
+  height: 200px;
+}
+
+.best-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.days-hours-container {
+  display: flex;
+  align-items: center;
+}
+
+.fourth-charts-container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+}
+
+.pie-chart2 {
+  width: 300px;
+  background-color: white;
+  height: 250px;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+  padding: 20px;
+}
+
+.men-women-div-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.men-container2 {
+  display: flex;
+  align-items: center;
+   margin-right: 180px;
+}
+
+.women-container2 {
+  display: flex;
+  align-items: center;
+   margin-left: -50px;
+}
+
+.men-empty-div2  {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: purple;
+ 
+}
+
+.women-empty-div2  {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: rgb(228, 51, 235);
+}
+
+.thirty-five2,
+.fourty-five2,
+.men2,
+.women2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.my-profile-div {
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+}
+
+.hash-tags-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hashtags-tags {
+  display: flex;
+}
+
+.profile-setting-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-profile {
+  color: black;
+  font-size: 20px;
+}
+
+.profile-setting-container svg {
+  width: 24px;
+  color: rgb(87, 86, 86);
+}
+
+.myProfile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.alice-turner {
+  color: black;
+  margin: 0;
+}
+
+.training-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.vip-training {
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  margin: 0;
+}
+
+.percent-emptydiv-container {
+  display: flex;
+  align-items: center;
+}
+
+.ten-percent {
+  color: purple;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.purple-empty-div {
+  background-color: purple;
+  width: 70px;
+  height: 10px;
+  border-radius: 5px;
+  
+}
+
+.lilac-empty-div {
+  background-color: rgb(222, 186, 230);
+  width: 130px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: -10px;
+}
+
+.hashtag-setting-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hashtag-set {
+  color: black;
+  font-size: 15px;
+}
+
+.setting-icon-container {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(214, 159, 214);
+  border-radius: 5px; 
+}
+
+.hashtag-setting-container svg {
+  color: purple;
+  align-items: center;
+  width: 25px;
+  height: 30px;
+  margin: 0;
+}
+
+.hashtag-headline {
+  font-size: 15px;
+  color: black;
+  margin: 0;
+  text-align: left;
+}
+
+.hashtag-tags {
+  color: rgb(165, 163, 163);
+  font-size: 12px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.hash-tags-container {
+  margin-bottom: 40px;
+}
+
+.hash-tags-container svg {
+  width: 30px;
+  height: 30px;
+  color: grey;
+}
+
+.double-data-barchart {
+  width: 420px;
+  background-color: white;
+  height: 250px;
+  padding: 20px;
+   border-radius: 10px;
+  border: 1px solid rgb(240, 238, 238);
+  margin-left: 30px;
+}
+
+.doubledata-chart {
+  width: 100%;
+  height: 200px;
+}
+
+.age-range-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gender-range-container {
+  display: flex;
+  align-items: center;
+}
+
+.age-range {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+
+.all {
+  margin: 0;
+  color: purple;
+  margin-right: 30px;
+}
+
+.men-div,
+.women-div {
+  margin: 0;
+  color: rgba(212, 54, 205, 1);
+  margin-right: 30px; 
+}
