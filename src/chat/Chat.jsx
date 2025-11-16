@@ -19,7 +19,7 @@ export function Chat() {
       <div className="mark-david-image-container">
         <div className="image-and-para">
           <img className="image-4"
-            src="/images/image4.jpg" />
+            src="images/image4.jpg" />
           <div>
             <p className="mark-name">Mark David</p>
             <p className="mark-email">markdavid@gmail.com</p>
@@ -79,7 +79,7 @@ export function Chat() {
             </div>
           ))}
           <div className="voice-message-container1">
-            <div class="voice-message">
+            <div className="voice-message">
               <div className="play-icon">
                 <Icon icon="mdi:play" width="20" height="20" color="white" />
               </div>

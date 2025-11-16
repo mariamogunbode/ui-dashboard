@@ -1,4 +1,4 @@
-import { HashRouter, Route,Switch } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { EntirePage } from './EntirePage/EntirePage';
 import { ProfileOverview } from './profile/profile';
 import { Teams } from './teams/Teams';
@@ -25,11 +25,11 @@ function App() {
     <>
       
       <HashRouter>
-         <Switch>
-          <EntirePage />
+         <Routes>
+          <Route path="/" element={<EntirePage />}>
           <Route path="/profile-overview" element={<ProfileOverview />} />
-          <Route path="/team" element={<Teams />} />
-          <Route path="/all-project" element={<AllProjects />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/all-projects" element={<AllProjects />} />
           <Route path="/reports" element={<Reports />} />
           <Route path="/new-user" element={<NewUser />} />
           <Route path="/setting" element={<Setting />} />
@@ -43,7 +43,8 @@ function App() {
           <Route path="/charts" element={<Charts />} />
           <Route path="/notification" element={<Notification />} />
           <Route path="/chat" element={<Chat />} />
-          </Switch>
+          </Route>
+          </Routes>
       </HashRouter>
     </>
   )

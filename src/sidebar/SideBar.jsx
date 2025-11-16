@@ -33,7 +33,7 @@ export function SideBar() {
 
   return (
     <div className="sidebar-container">
-      <img src="image11.png" />
+      <img src="images/image11.png" />
       <ul>
         <li className="sidebar-pages-container">
           <Icon className="sidebar-icon"
@@ -43,7 +43,8 @@ export function SideBar() {
         <li className="sidebar-pages-container">
            <Icon className="sidebar-icon"
            icon="mdi:file-document" />
-          <span onClick={pagesDisplay}>
+          <span className="page-link"
+          onClick={pagesDisplay}>
             Pages
             <Icon className="icon"
             icon={displayPages ? 'mdi:chevron-up' : 'mdi:chevron-down'} /></span>

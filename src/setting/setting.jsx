@@ -124,7 +124,7 @@ const handleFileChange = (event) => {
         <p className="your-photo2">Your Photo</p>
         <div className="edit-photo-container">
           <img className="photo"
-          src="/images/image4.jpg" />
+          src="images/image4.jpg" />
           <div>
             <p className="edit">Edit your photo</p>
             <button className="delete">Delete</button>

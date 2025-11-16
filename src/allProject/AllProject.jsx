@@ -22,7 +22,7 @@ export function AllProjects() {
         <div className="profile-button-container">
           <div className="profile-picture-container">
             <img className="picture2"
-              src="/images/image6.jpg" />
+              src="images/image6.jpg" />
             <div className="name-position">
               <p className="name">Sayo Kravits</p>
               <p className="position">Public Relations</p>
@@ -60,7 +60,7 @@ export function AllProjects() {
                           <p className="profileName">{item.profileName}</p>
                           <div className="pictures-div">
                             {item.pictures && item.pictures.map((picture, index) => (
-                              <img className="pictures" key={index} src={`/images/${picture.url}`} alt={picture.alt} />
+                              <img className="pictures" key={index} src={`images/${picture.url}`} alt={picture.alt} />
                             ))}
                           </div>
                         </div>

@@ -20,31 +20,31 @@ export function Teams() {
 
   const teamMembers = [{
     id: 'id1',
-    image: '/images/image1.jpg',
+    image: 'images/image1.jpg',
     name: 'Olivia Rhye',
     email: 'Olivia@gmail.com'
   },
   {
     id: 'id2',
-    image: '/images/image2.jpg',
+    image: 'images/image2.jpg',
     name: 'Phoenix Baker',
     email: 'Phoenix@gmail.com'
   },
   {
     id: 'id3',
-    image: '/images/image3.jpg',
+    image: 'images/image3.jpg',
     name: 'Lana Steiner',
     email: 'Lana@gmail.com'
   },
   {
     id: 'id4',
-    image: '/images/image4.jpg',
+    image: 'images/image4.jpg',
     name: 'Demi Wikinson',
     email: 'Demi@gmail.com'
   },
   {
     id: 'id5',
-    image: '/images/image5.jpg',
+    image: 'images/image5.jpg',
     name: 'Candice Wu',
     email: 'Candice@gmail.com'
   }]
@@ -67,7 +67,7 @@ export function Teams() {
         <div className="invite-team-member-container">
           <div className="invite team-container">
             <p className="invite-team">Invite team members</p>
-            <p class="your-project">Get your projects up and running faster by inviting your team to collaborate.</p>
+            <p className="your-project">Get your projects up and running faster by inviting your team to collaborate.</p>
           </div>
           <div>
             <div className="email-input-container">

@@ -27,8 +27,9 @@
   display: block;
 }
 
-.sidebar a {
-  color: #fff'
+.page-link {
+  color: rgb(133, 133, 228);
+  font-weight: 500;
 }
 
 .sidebar span {

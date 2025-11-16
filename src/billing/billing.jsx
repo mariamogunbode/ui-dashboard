@@ -1,15 +1,21 @@
 import { Icon } from '@iconify/react';
+import image1 from '/images/image1.jpg';
+import image2 from '/images/image2.jpg';
+import image3 from '/images/image3.jpg';
+import image4 from '/images/image4.jpg';
+import image5 from '/images/image5.jpg';
+import image6 from '/images/image6.jpg';
 import './billing.css'
 
 export function Billing() {
 
   const images = [
-    {id: 'id1', image: '/images/image1.jpg'},
-    {id: 'id2', image: '/images/image2.jpg'},
-    {id: 'id3', image: '/images/image3.jpg'},
-    {id: 'id4', image: '/images/image4.jpg'},
-    {id: 'id5', image: '/images/image5.jpg'},
-    {id: 'id6', image: '/images/image6.jpg'}
+    {id: 'id1', image: image1},
+    {id: 'id2', image: image2},
+    {id: 'id3', image: image3},
+    {id: 'id4', image: image4},
+    {id: 'id5', image: image5},
+    {id: 'id6', image: image6}
   ]
   return (
     <>
@@ -43,7 +49,8 @@ export function Billing() {
             <div  className="billing-images-container">
               {images.map((image) => {
                 return (
-                <img className="billing-images"
+                <img key={image.id}className="billing-images"
+                
                 src={image.image} />
                 );
                })}

@@ -3,11 +3,12 @@ export const ProfileData = [{
   profilePicture: {label: 'Ic', backgroundColor: 'lightPink', color: 'red'}, 
   profileName: 'Design tools',
   pictures: [
-  { url: 'image1.jpg', alt: 'Image 1'},
-  { url: 'image2.jpg', alt: 'Image 2'},
-  { url: 'image3.jpg', alt: 'Image 3'},
-  { url: 'image4.jpg', alt: 'Image 4'},
-  { url: 'image5.jpg', alt: 'Image 5'}
+  { url: 'image1.jpg', alt: 'Image1'},
+  { url: 'image2.jpg', alt: 'Image2'},
+  { url: 'image3.jpg', alt: 'Image3'},
+  { url: 'image4.jpg', alt: 'Image4'},
+  { url: 'image5.jpg', alt: 'Image5'}
+      
 ],
   profileDetails: 'For standing out. But the time is now to be okay to be the greatest you.',
   number: '30',
