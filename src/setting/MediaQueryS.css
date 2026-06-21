@@ -1,0 +1,181 @@
+@Media (max-width: 80rem) {
+  .setting-update-container {
+  margin-right: 230px;
+}
+
+ .personal-info-inputs-container {
+  width: 500px;
+ }
+
+ .input-text {
+  width: 195px;
+ }
+
+ .your-photo-google-container {
+  width: 250px;
+  margin-left: 30px;
+}
+
+.file-upload2::before {  
+  width: 100%;
+  padding: 0;
+}
+
+.input-label {
+  font-size: 18px;
+}
+
+.input-text {
+  font-size: 15px;
+}
+
+.span-para {
+  font-size: 13px;
+}
+
+.lorem-ipsum {
+  font-size: 13px;
+}
+
+.personal-info {
+  font-size: 20px;
+}
+
+}
+
+@Media (max-width: 64rem) {
+ .personalInfo-yourPhoto-container {
+  display: flex;
+  flex-direction: column;
+ } 
+
+ .personal-info-inputs-container {
+  width: 700px;
+  padding-bottom: 30px;
+ }
+
+ .input-text {
+  width: 285px;
+ }
+
+ .your-photo-google-container {
+  width: 700px;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+.your-photo2 {
+  font-size: 25px;
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+}
+
+.edit {
+  font-size: 20px;
+}
+
+.delete,
+.update {
+  width: 100px;
+  font-size: 15px;
+}
+
+.setting-update-container {
+  margin-right: 130px;
+}
+
+.setting-update-button-container {
+  width: 700px;
+}
+
+.setting-detail {
+  font-size: 25px;
+}
+
+.your-photo {
+  font-size: 15px;
+}
+
+.input-label {
+  font-size: 18px;
+}
+
+.input-text {
+  font-size: 15px;
+}
+
+.lorem-ipsum {
+  font-size: 15px;
+}
+
+.use-google {
+  font-size: 15px;
+  width: 250px;
+}
+
+.connec-ted {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.file-upload2 {
+  width: 500px;
+}
+
+.your-photo-container {
+  padding-bottom: 50px;
+}
+
+.span-para {
+  font-size: 13px;
+}
+
+}
+
+@Media (max-width: 48rem) {
+.inputs-divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-inputs-container {
+  margin-left: 30px;
+}
+
+.input-text {
+  width: 500px;
+  font-size: 20px;
+}
+
+.input-label {
+  font-size: 25px;
+}
+
+.personal-info {
+  font-size: 25px;
+}
+
+.cancel-save-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.your-photo {
+  font-size: 20px;
+}
+
+.cancel {
+  margin-bottom: 10px;
+}
+
+.setting-update-button-container {
+  padding-bottom: 100px;
+}
+
+.personalInfo-yourPhoto-container {
+  top: 200px;
+}
+}

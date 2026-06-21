@@ -1,0 +1,36 @@
+@Media (max-width: 80rem) {
+  .userInfo-aboutMe-container {
+    width: 600px;
+  }
+
+  .user-info-container {
+    width: 100%;
+  }
+
+  .empty-div {
+    width: 180px;
+  }
+
+  .aboutMe-input {
+    width: 200px;
+  }
+}
+
+@Media (max-width: 44rem) {
+  .aboutMe-inputs-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+   .aboutMe-input {
+    width: 300px;
+  }
+
+  .aboutme-input-container {
+    height: 700px;
+  }
+
+  .empty-div {
+    width: 170px;
+  }
+}

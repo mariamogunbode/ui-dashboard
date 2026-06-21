@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { ProfileData } from "../data/profiledata";
 import getProfileData from '../data/profiledata';
 import './AllProject.css'
+import './MediaQueryA.css'
 
 export function AllProjects() {
   const newProjects = getProfileData();
@@ -28,7 +29,7 @@ export function AllProjects() {
               <p className="position">Public Relations</p>
             </div>
           </div>
-          <div>
+          <div className="buttons">
             <button className="appButton">App</button>
             <button className="messagesButton">Messages</button>
             <button className="settingsButton">Settings</button>

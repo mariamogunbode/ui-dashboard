@@ -106,7 +106,7 @@ export const PurpleBarChart = () => {
         borderColor: 'transparent',
         borderWidth: 1,
         borderRadius: 6,
-        barThickness: 25,
+        barThickness: 10,
       },
     ],
   };
@@ -139,7 +139,7 @@ export const PurpleBarChart = () => {
         ticks: {
           color: '#333',
           font: {
-            size: 14,
+            size: 10,
           },
         },
         categoryPercentage:0.4,

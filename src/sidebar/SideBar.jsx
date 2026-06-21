@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Icon } from '@iconify/react'
 import './SideBar.css'
+import './MediaQuerySB.css'
 
 export function SideBar() {
   const [displayPages, setDisplayPages] = useState(false);
@@ -38,9 +39,9 @@ export function SideBar() {
         <li className="sidebar-pages-container">
           <Icon className="sidebar-icon"
           icon="mdi:home" />
-          <NavLink to="/">Home</NavLink>
+          <NavLink className="sidebar-pages" to="/">Home</NavLink>
         </li>
-        <li className="sidebar-pages-container">
+        <li className="sidebar-pages-container2">
            <Icon className="sidebar-icon"
            icon="mdi:file-document" />
           <span className="page-link"
@@ -49,8 +50,8 @@ export function SideBar() {
             <Icon className="icon"
             icon={displayPages ? 'mdi:chevron-up' : 'mdi:chevron-down'} /></span>
           {displayPages && (
-            <ul>
-              <li>
+            <ul className="parent-link">
+              <li className="child-link">
                 <span onClick={profileDisplay}>
                   Profile
                   <Icon className="icon"
@@ -70,7 +71,7 @@ export function SideBar() {
                 )}
               </li>
 
-              <li>
+              <li className="child-link">
                 <span onClick={userDisplay}>
                   Users
                   <Icon className="icon"
@@ -88,7 +89,7 @@ export function SideBar() {
                 )}
               </li>
 
-              <li>
+              <li className="child-link">
                 <span onClick={accountDisplay}>
                   Account
                   <Icon className="icon"
@@ -112,7 +113,7 @@ export function SideBar() {
                 )}
               </li>
 
-              <li>
+              <li className="child-link">
                 <span onClick={projectDisplay}>
                   Project
                   <Icon className="icon"
@@ -133,20 +134,24 @@ export function SideBar() {
                 )}
               </li>
 
-              <li>
-                <NavLink to="/pricing-page">Pricing Page</NavLink>
+              <li className="child-link">
+                <NavLink className="sidebar-pages-container"
+                to="/pricing-page">Pricing Page</NavLink>
               </li>
 
-              <li>
-                <NavLink to="/charts">Charts</NavLink>
+              <li className="child-link">
+                <NavLink className="sidebar-pages-container"
+                to="/charts">Charts</NavLink>
               </li>
 
-              <li>
-                <NavLink to="/notification">Notification</NavLink>
+              <li className="child-link">
+                <NavLink className="sidebar-pages-container"
+                to="/notification">Notification</NavLink>
               </li>
 
-              <li>
-                <NavLink to="/chat">Chat</NavLink>
+              <li className="child-link">
+                <NavLink className="sidebar-pages-container"
+                to="/chat">Chat</NavLink>
               </li>
             </ul>
           )}
@@ -155,17 +160,17 @@ export function SideBar() {
         <li className="sidebar-pages-container">
            <Icon className="sidebar-icon"
            icon="mdi:application" />
-          <NavLink to="/">Applications</NavLink>
+          <NavLink className="sidebar-pages" to="/">Applications</NavLink>
         </li>
         <li className="sidebar-pages-container">
            <Icon className="sidebar-icon"
            icon="mdi:shopping" />
-          <NavLink to="/">E-commerce</NavLink>
+          <NavLink className="sidebar-pages" to="/">E-commerce</NavLink>
         </li>
         <li className="sidebar-pages-container">
            <Icon className="sidebar-icon"
            icon="mdi:lock" />
-          <NavLink to="/">Authentication</NavLink>
+          <NavLink className="sidebar-pages" to="/">Authentication</NavLink>
         </li>
       </ul>
     </div>

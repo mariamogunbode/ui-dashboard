@@ -10,9 +10,28 @@
   z-index: 1000;
   height: 1000px;
 }
+
 .sidebar-pages-container {
   display: flex;
-  align-items: center;
+  
+  text-align: left;
+  color: blue;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sidebar-pages-container2 {
+  display: flex;
+  align-items: right;
+  text-align: left;
+  color: blue;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.parent-link {
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-icon {
@@ -20,7 +39,8 @@
 }
 
 .sub-menu {
-  display: none;
+ display: none;
+ 
 }
 
 .sub-menu.show {
@@ -28,8 +48,11 @@
 }
 
 .page-link {
-  color: rgb(133, 133, 228);
+  color: blue;
   font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  
 }
 
 .sidebar span {
@@ -45,4 +68,8 @@
 .icon {
   margin-left: auto;
   cursor: pointer;
+}
+
+.sidebar-pages {
+  color: blue;
 }

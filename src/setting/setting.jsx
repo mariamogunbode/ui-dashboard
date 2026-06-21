@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 import './setting.css'
+import './MediaQueryS.css'
 
 export function Setting() {
   const [file, setFile] = useState(null)
@@ -48,7 +49,7 @@ const handleFileChange = (event) => {
         <p className="setting-detail">Setting Details</p>
         <p className="your-photo">Update your photo and personal details here.</p>
         </div>
-        <div>
+        <div className="cancel-save-buttons">
           <button className="cancel">Cancel</button>
           <button className="save">Save</button>
         </div>
@@ -139,7 +140,7 @@ const handleFileChange = (event) => {
       onDragOver={handleDragOver}
       onDrop={handleDrop}
     >
-      <div>
+      <div className="upload-container">
        <Icon className="upload-icon"
        icon="mdi:cloud-upload" />
       </div>

@@ -9,6 +9,7 @@ import { pieChartData } from "../data/lineCharts";
 import { MyProfileData } from '../data/ProfilePreview/myProfile';
 import { DoubleDataBar } from '../data/ProfilePreview/doubleDataBar';
 import './profile.css'
+import './MediaQuery.css'
 
 export function ProfileOverview() {
   Chart.register(...registerables,
@@ -120,10 +121,10 @@ export function ProfileOverview() {
             </div>
             <div className="purple-barchart-container">
               <div className="best-time-container">
-                <p>Best time</p>
+                <p className="best">Best time</p>
                 <div className="days-hours-container">
-                  <p>Days</p>
-                  <p>Hours</p>
+                  <p className="days">Days</p>
+                  <p className="hours">Hours</p>
                   <div>?</div>
                 </div>
               </div>
@@ -138,7 +139,7 @@ export function ProfileOverview() {
                 <p className="gender">Gender</p>
                 <div className="gender-question">?</div>
               </div>
-              <Doughnut
+              <Doughnut className="doughnut"
                 data={
                   {
                     labels: chartData.labels,

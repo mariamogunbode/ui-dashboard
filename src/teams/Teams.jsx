@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 import './Teams.css'
+import './MediaQueryT.css'
 
 export function Teams() {
   const [checked, setChecked] = useState(false);
@@ -65,7 +66,7 @@ export function Teams() {
         <p className="team-management">Team management</p>
         <p className="manage-team">Manage your team members and their account permissions here</p>
         <div className="invite-team-member-container">
-          <div className="invite team-container">
+          <div className="invite-team-container">
             <p className="invite-team">Invite team members</p>
             <p className="your-project">Get your projects up and running faster by inviting your team to collaborate.</p>
           </div>

@@ -1,0 +1,57 @@
+@Media (max-width: 80rem) {
+  .email-input-container {
+    width: 400px;
+  }
+
+  .read-only-button {
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .your-project {
+    font-size: 12px;
+  }
+
+  .team-management-container {
+    width: 1000px;
+  }
+
+  .invite-team-container {
+    width: 210px;
+  }
+
+  .team-member-profile-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .buttons-div {
+    margin-left: -200px;
+  }
+}
+
+@Media (max-width: 64rem) {
+  .invite-team-member-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-input-container {
+    width: 400px;
+  }
+
+  .read-only-button {
+    width: 100px;
+    font-size: 10px;
+  }
+
+  .your-project {
+    font-size: 15px;
+  }
+
+  .team-management-container {
+    height: 1020px;
+    padding: 20px;
+    width: 480px;
+  }
+}

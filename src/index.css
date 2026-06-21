@@ -28,8 +28,14 @@ body {
   margin: 0;
   overflow-y: auto;
   place-items: center;
-  height: 1500px;
+  height: 1700px;
   
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {

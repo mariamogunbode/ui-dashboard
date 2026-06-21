@@ -1,0 +1,10 @@
+@Media (max-width: 80rem) {
+  .sidebar-container {
+    width: 150px;
+  }
+
+  .sidebar-pages,
+  .page-link {
+    font-size: 12px;
+  }
+}

@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import './NewUser.css'
+import './MediaQueryNU.css'
 
 export function NewUser() {
   return (

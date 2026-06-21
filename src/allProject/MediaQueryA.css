@@ -1,0 +1,55 @@
+@Media (max-width: 80rem) {
+  .profile-data-container {
+    width: 500px;
+    height: 1350px;
+  }
+
+  .profile-button-container {
+    width: 480px;
+  }
+
+  .appButton {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .messagesButton,
+  .settingsButton {
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  .position {
+    font-size: 15px;
+  }
+
+  .awesomeProject-profile-container {
+    width: 480px;
+  }
+
+  .profileData-container {
+  flex-basis: calc(40.70% - 20px);
+}
+}
+
+@Media (max-width: 64rem) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .appButton {
+    margin-bottom: 20px;
+  }
+
+  .messagesButton,
+  .settingsButton {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .profile-data-container {
+    height: 1500px;
+  }
+}
