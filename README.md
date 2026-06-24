@@ -1,5 +1,6 @@
 UI Dashboard
 
+A figma design turned into code.
 A responsive admin dashboard built with React and CSS, designed to provide a clean, modern, and user-friendly interface across different screen sizes.
 
 🚀 Features
