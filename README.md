@@ -9,6 +9,9 @@ UI Dashboard
 ## 📸 Screenshot
 ![UI Dashboard](Ui-dashboard2.png)
 
+## 📸 Screenshot
+![UI Dashboard](Ui-dashboard3.png)
+
 A figma design turned into code.
 A responsive admin dashboard built with React and CSS, designed to provide a clean, modern, and user-friendly interface across different screen sizes.
 
